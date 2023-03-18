@@ -1,12 +1,17 @@
 #include<stdio.h>
+
 /**
  * main- Entry
- *
- * Return: Always 0
-*
+ *Description: 'The program description'
+ *Parameter: Program prints aline using puts function
+ * Return: Always 0 (success)
 */
+
 int main(void)
 {
-	puts("\""Programming is like building a multilingual puzzle");
-	return (0);
+	/*printing using puts*/
+	char mystr = "\"Programming is like building a multilingual puzzle"
+ ;
+	puts(mystr); /*writing the string to stdout*/
+return: 0;
 }
