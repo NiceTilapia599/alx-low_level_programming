@@ -3,6 +3,7 @@
  * main- entry point
  * Description: print a new line using puts
  *
+ * Return: 0
 */
 int main(void)
 
