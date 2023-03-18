@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
-  *main - entry point
-  *Description - print data types ending anew line
+  *main - Entry point
+  *Description - print data types ending with anew line
   *
-  *Return: 0
-*/
-int main(void)
+  *Return: Always(0)
+ */
 
+int main(void)
 {
 	char a;
 	int b;
@@ -14,8 +14,8 @@ int main(void)
 	long long int d;
 	float f;
 
-	printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("Size of int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("Size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("Size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 	printf("Size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
