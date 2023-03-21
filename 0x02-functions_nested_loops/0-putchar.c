@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
-  *main - prints _putchar and anew line
+  *main - entry point
+  *_putchar: Print the alphabet putchar
   *
-  *Return: 0
+  *Return: Always 0
   */
 int main(void)
 {
