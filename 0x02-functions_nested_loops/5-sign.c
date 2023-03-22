@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+
 /**
   *print_sign - function that print signs.
   *@n: Parameter to check for sign.
