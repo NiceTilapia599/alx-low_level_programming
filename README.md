@@ -1,1 +1,1 @@
- Nested loops C functions
+pointers, arrays and strings in C
